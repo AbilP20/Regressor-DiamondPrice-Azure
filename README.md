@@ -21,9 +21,21 @@ python setup.py install
 create __init__.py in all folders which you want to be used as a package
 ```
 
-### notebooks folder - contains all ipynb files where we do EDA, analyze etc. - no need for init.py here as we dont want it as package
+```notebooks folder - contains all ipynb files where we do EDA, analyze etc. - no need for init.py here as we dont want it as package
+```
 
-### create exception.py for custom exception handling in src and logger.py to log info
+```
+create exception.py for custom exception handling in src and logger.py to log info
+```
 
-### utils.py will contain any common utilities, variables or functions(like databases, reading mongodb or mysql etc or some common functions also) that will be used in any number of python files in the project.
+``` 
+utils.py will contain any common utilities, variables or functions(like databases, reading mongodb or mysql etc or some common functions also) that will be used in any number of python files in the project.
+```
 
+```
+pipeline folder contains prediction and training pipelines
+```
+
+```
+components folder contains all the components required for building model - data ingestion, transformation, model trainer.
+```
